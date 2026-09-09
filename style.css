@@ -14,6 +14,15 @@ body{
   align-items: center;
 }
 
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1{
   font-size: 40px; 
   color: #fafafa;
@@ -42,6 +51,10 @@ textarea{
   margin-top: 20px;
 }
 
+textarea:focus{
+  border-color: #22c55e;
+}
+
 button{
   width: 100%;
   max-width: 640px; 
@@ -55,6 +68,14 @@ button{
   margin-top: 10px; 
 }
 
+button:hover{
+  background: #16a34a;
+}
+
+button:disabled{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
 .bloco-codigo{
   background: #141419;
   border: 1px solid #27272a;
@@ -87,8 +108,8 @@ button{
   max-width: 1200px;
   display: flex; 
   gap: 20px; 
-  justify-content: center; /*JUSTIFICAR O CONTEUDO*/
-  margin-top: 20px; /*MARGEM SUPERIOR*/
+  justify-content: center; 
+  margin-top: 20px; 
 
 }
 
