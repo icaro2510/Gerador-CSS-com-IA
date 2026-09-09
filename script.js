@@ -1,10 +1,3 @@
-//Ir no HTML e pegar o botao
-//HTML = document (documento)
-//Selecionar (querySelector) = é um seletor
-//Quem? o botão
-//Apelido para botão  - classes(class) = .
-
-//Descobri quem é o botão
 let botao = document.querySelector(".botao-gerar");
 let endereco = "https://api.groq.com/openai/v1/chat/completions";
 
