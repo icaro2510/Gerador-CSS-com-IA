@@ -2,22 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif; /*FONTE PEGA NO GOOGLE FONTS*/
+  font-family: 'Inter', sans-serif; 
 }
 
 body{
-  background: #09090b; /*COR DE FUNDO*/
-  color: #e4e4e7; /*COR DA TEXTO*/
-  padding: 40px; /*ESPAÇAMENTO*/
-  display: flex; /*MOSTRA OS ITENS*/
+  background: #09090b; 
+  color: #e4e4e7; 
+  padding: 40px; 
+  display: flex; 
   flex-direction: column;
   align-items: center;
 }
 
 h1{
-  font-size: 40px; /*TAMANHO DO TEXTO*/
+  font-size: 40px; 
   color: #fafafa;
-  font-weight: bold; /*GROSSURA DA FONTE*/ /*BOLD = NEGRITO*/
+  font-weight: bold; 
 }
 
 span{
@@ -31,11 +31,11 @@ p{
 
 textarea{
   resize: none;
-  width: 100%; /*LARGURA*/
-  max-width: 640px; /*LARGURA MAXIMA*/
+  width: 100%; 
+  max-width: 640px; 
   padding: 16px; 
-  border: 1px solid #27272a; /*TROCA A COR DA BORDA*/
-  border-radius: 10px; /*ARREDONDAR A BORDAR*/
+  border: 1px solid #27272a; 
+  border-radius: 10px; 
   background: #141419;
   color: #fafafa;
   outline: none;
@@ -44,15 +44,15 @@ textarea{
 
 button{
   width: 100%;
-  max-width: 640px; /*LARGURA MAXIMA*/
+  max-width: 640px; 
   background: #22c55e;
-  font-size: 16px; /*TAMANHO DA FONTE*/
-  font-weight: bold; /*GROSSURA DA FONTE*/
-  border-radius: 10px; /*ARREDONDAR A BORDA*/
+  font-size: 16px; 
+  font-weight: bold; 
+  border-radius: 10px; 
   border: none;
   padding: 15px;
   cursor: pointer;
-  margin-top: 10px; /*MARGEM SUPERIOR*/
+  margin-top: 10px; 
 }
 
 .bloco-codigo{
@@ -67,7 +67,7 @@ button{
   width: 100%;
   max-width: 450px; 
   max-height: 450px;
-  white-space: pre-wrap; /*QUEBRA DE LINHA AUTOMATICA*/
+  white-space: pre-wrap; 
 }
 
 .resultado-codigo{
@@ -85,8 +85,8 @@ button{
 .resultado{
   width: 100%;
   max-width: 1200px;
-  display: flex; /*MOSTRA OS ITENS*/
-  gap: 20px; /*LARGURA ENTRE OS ITENS*/
+  display: flex; 
+  gap: 20px; 
   justify-content: center; /*JUSTIFICAR O CONTEUDO*/
   margin-top: 20px; /*MARGEM SUPERIOR*/
 
